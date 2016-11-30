@@ -16,7 +16,6 @@ while running:
 	#print 'got connected from',address
 	#ra=ss.recv(1024)
 	ss.send('Register (Enable)')
-	ss.send('Register (Enable)')
 	#time.sleep(1)
 	ss.send('VR=2.0,ID=01:26:18:18:14:00:00:42,SP=Beacon2,DB=150,DR=5943,TM=6493,TS=265952,PC=(0,0,0),TP=0,LT=1461496007042')
 	#time.sleep(1)
